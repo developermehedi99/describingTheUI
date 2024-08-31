@@ -1,4 +1,5 @@
 import Blog from "./Blog"
+import Jsx from "./Jsx"
 
 export default function Gallery() {
   return (
@@ -6,6 +7,8 @@ export default function Gallery() {
         <h3>Frist components</h3>
         <Profile></Profile>
         <Blog></Blog>
+        <hr />
+        <Jsx></Jsx>
     </div>
   )
 }
