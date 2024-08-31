@@ -1,5 +1,6 @@
 import Blog from "./Blog"
 import Jsx from "./Jsx"
+import MyProfile from "./MyProfile"
 
 export default function Gallery() {
   return (
@@ -9,6 +10,7 @@ export default function Gallery() {
         <Blog></Blog>
         <hr />
         <Jsx></Jsx>
+        <MyProfile salary="30" job="developer"></MyProfile>
     </div>
   )
 }
