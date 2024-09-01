@@ -1,4 +1,5 @@
 import Blog from "./Blog"
+import PackingList from "./Item"
 import Jsx from "./Jsx"
 import MyProfile from "./MyProfile"
 
@@ -11,6 +12,7 @@ export default function Gallery() {
         <hr />
         <Jsx></Jsx>
         <MyProfile salary="30" job="developer"></MyProfile>
+        <PackingList></PackingList>
     </div>
   )
 }
